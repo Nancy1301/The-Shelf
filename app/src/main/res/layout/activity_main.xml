@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/the_shelf"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#cb8b4d"
+        android:id="@+id/textView1"
+        tools:ignore="InefficientWeight"
+        />
+
+    <Button
+        android:id="@+id/mainadmin"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300sp"
+        android:background="#562310"
+        android:onClick="admin"
+        android:text="@string/admin"
+        android:textColor="#cb8b4d"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds"/>
+
+</LinearLayout>
